@@ -1,0 +1,7 @@
+version: "2.1"
+services:
+    camunda:
+      container_name: demotest
+      build: .
+      ports:
+        - "9898:8080"
